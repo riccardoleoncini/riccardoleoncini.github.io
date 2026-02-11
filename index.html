@@ -1,116 +1,1615 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.4">
-  <style type="text/css">
-    body {background-color: #4d4d4d}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="it"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;title&gt;Il Mio Sito&lt;/title&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;style&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>body {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-family: Arial, sans-serif;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: #f4f6f9;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: #333;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>header {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: #1f2937;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: white;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 60px 20px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>text-align: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>header h1 {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 2.5rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>header p {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-top: 10px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 1.2rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>opacity: 0.9;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>section {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>max-width: 800px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin: 40px auto;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 20px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: white;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>border-radius: 10px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>box-shadow: 0 4px 12px rgba(0,0,0,0.05);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>h2 {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-top: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.button {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>display: inline-block;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>margin-top: 15px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 10px 20px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: #2563eb;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: white;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>text-decoration: none;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>border-radius: 6px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>transition: 0.3s;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.button:hover {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>background: #1e40af;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>footer {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>text-align: center;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>padding: 20px;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 0.9rem;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>color: #777;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;header&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Benvenuto nel mio sito&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;Creato con GitHub Pages 🚀&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;section&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Chi sono&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>Qui puoi scrivere una breve descrizione su di te.</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>Questo è un sito statico pubblicato gratuitamente con GitHub Pages.</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="button"&gt;Scopri di più&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;section&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Contatti&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;Email: tuaemail@email.com&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;GitHub: github.com/tuo-username&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>© 2026 - Il Mio Nome</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
-</body>
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="Generator" content="iWeb 3.0.4">
+    <meta name="iWeb-Build" content="local-build-20191002">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <meta name="viewport" content="width=700">
+    <title>RICCARDO LEONCINI</title>
+    <link rel="stylesheet" type="text/css" media="screen,print"
+      href="CV_files/CV.css">
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='CV_files/CVIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="CV_files/CV.js"></script>
+  </head>
+  <body style=" background: rgb(96, 96, 96); margin: 0pt; "
+    onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right:
+        auto; margin-top: 0px; overflow: hidden; position: relative;
+        word-wrap: break-word; text-align: left; width: 700px; "
+        id="body_content">
+        <div style="background: transparent
+          url(CV_files/pinstripe_welcome_tile.jpg) repeat scroll top
+          left; width: 700px; ">
+          <div style="margin-left: 0px; position: relative; width:
+            700px; z-index: 0; " id="nav_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
+            <div style="height: 1px; line-height: 1px; "
+              class="tinyText">&nbsp;</div>
+            <div class="com-apple-iweb-widget-navbar flowDefining"
+              id="widget0" style="margin-left: 54px; margin-top: 22px;
+              opacity: 1.00; position: relative; width: 592px; z-index:
+              1; ">
+              <div id="widget0-navbar" class="navbar">
+                <div id="widget0-bg" class="navbar-bg">
+                  <ul id="widget0-navbar-list" class="navbar-list">
+                    <li><br>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: Cochin, 'Times New Roman', serif;\n\tfont-size: .9em;\n\tcolor: #fff;\n\tmargin: 0px;\n\tfont-weight: bold;\n\tline-height: 26px;\n\ttext-transform: uppercase;\n}\n\n.navbar-bg {\n\ttext-align: left;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 35px 0px 0px;\n\tmargin: 0px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tpadding: 0px;\n\tmargin: 0px;\n\tcolor: #fff;\n\ttext-shadow: -1px 0px 1px #B3B7B4;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tpadding: 0px;\n\tmargin: 0px;\n\tcolor: #fff;\n\ttext-shadow: -1px 0px 1px #B3B7B4;\n}\n\nli a:hover\r{\r\n \tcolor: #666;\n\ttext-shadow: 0px 0px 0px\t;\r}\n\n\nli.current-page a\r{\r\t color: #333;\n\ttext-shadow: 0px 0px 0px;\r\r}\n", "current-page-GUID": "92EC5DD9-DDA1-4236-92FB-D3A8A1FEC237", "isCollectionPage": "NO"});
+//--><!]]></script>
+            <div style="height: 233px; width: 700px; height: 233px;
+              left: 0px; position: absolute; top: -2px; width: 700px;
+              z-index: 1; " class="tinyText style_SkipStroke"> <img
+                src="CV_files/pinstripe_lg2-51.jpg" alt=""
+                style="border: none; height: 233px; width: 700px; "> </div>
+            <div style="clear: both; height: 0px; line-height: 0px; "
+              class="spacer">&nbsp;</div>
+          </div>
+          <div style="height: 54px; margin-left: 0px; position:
+            relative; width: 700px; z-index: 10; " id="header_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
+            <div style="height: 1px; width: 592px; height: 1px; left:
+              54px; position: absolute; top: 0px; width: 592px; z-index:
+              1; " class="tinyText">
+              <div style="position: relative; width: 592px; "> <img
+                  src="CV_files/shapeimage_1.jpg" alt="" style="height:
+                  1px; left: 0px; position: absolute; top: 0px; width:
+                  592px; "> </div>
+            </div>
+            <div id="id1" style="height: 54px; left: 50px; position:
+              absolute; top: 0px; width: 600px; z-index: 1; "
+              class="style_SkipStroke_1 shape-with-text">
+              <div class="text-content style_External_600_54"
+                style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; "
+                    class="paragraph_style"><span class="style_1">RICCARDO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      LEONCINI</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-left: 0px; position: relative; width:
+            700px; z-index: 5; " id="body_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
+            <div style="height: 21px; width: 700px; height: 21px; left:
+              0px; position: absolute; top: 319px; width: 700px;
+              z-index: 1; " class="tinyText style_SkipStroke"> <img
+                src="CV_files/pinstripe_welcome_cover-min3.jpg" alt=""
+                style="border: none; height: 21px; width: 700px; "> </div>
+            <div id="id2" style="height: 326px; left: 0px; position:
+              absolute; top: 1px; width: 700px; z-index: 1; "
+              class="style_SkipStroke_2 shape-with-text">
+              <div class="text-content
+                graphic_shape_layout_style_default_External_700_326"
+                style="padding: 0px; "> </div>
+            </div>
+            <div style="height: 116px; left: 67px; position: absolute;
+              top: 22px; width: 156px; z-index: 1;" class="tinyText
+              stroke_0">
+              <div style="position: relative; width: 156px; "> <img
+                  src="CV_files/Teaching%20Photo.jpg" alt=""
+                  moz-do-not-send="true" style="top: 0px; left: 0px;
+                  width: 147px; height: 103px;"> </div>
+            </div>
+            <div style="height: 167px; left: 68px; position: absolute;
+              top: 148px; width: 142px; z-index: 1;" class="tinyText
+              stroke_0">
+              <div style="position: relative; width: 156px; "> <img
+                  src="CV_files/china.jpeg" alt=""
+                  moz-do-not-send="true" style="top: 0px; left: 0px;
+                  width: 144px; height: 171px;" width="1536"
+                  height="2048"> </div>
+            </div>
+            <div style="height: 276px; width: 361px; height: 276px;
+              left: 263px; position: absolute; top: 18px; width: 361px;
+              z-index: 1; " class="tinyText stroke_0">
+              <div style="position: relative; width: 361px; "> <img
+                  src="CV_files/seminar_india.jpg" alt="" style="left:
+                  -37px; position: absolute; top: 4px; width: 386px;
+                  height: 296px;"> </div>
+            </div>
+            <div style="height: 170px; width: 1px; height: 170px; left:
+              248px; position: absolute; top: 357px; width: 1px;
+              z-index: 1; " class="tinyText shadow_0">
+              <div style="position: relative; width: 1px; "> <img
+                  src="CV_files/shapeimage_5.png" alt="" style="height:
+                  170px; left: 0px; position: absolute; top: 0px; width:
+                  1px; "> </div>
+            </div>
+            <div id="id3" style="height: 180px; left: 76px; position:
+              absolute; top: 352px; width: 172px; z-index: 1; "
+              class="style_SkipStroke_3 shape-with-text">
+              <div class="text-content style_External_172_180"
+                style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; "
+                    class="paragraph_style_1"><br>
+                  </p>
+                  <p class="paragraph_style_2">Department of <br>
+                  </p>
+                  <p class="paragraph_style_2">Legal Studies<br>
+                  </p>
+                  <p class="paragraph_style_3"><br>
+                  </p>
+                  <p class="paragraph_style_4">Viale Filopanti, 9<br>
+                  </p>
+                  <p class="paragraph_style_4">40126 Bologna (I)<br>
+                  </p>
+                  <p class="paragraph_style_5"><br>
+                  </p>
+                  <p class="paragraph_style_6"><a
+                      title="mailto:riccardo.leoncini@unibo.it"
+                      href="mailto:riccardo.leoncini@unibo.it">riccardo.leoncini@unibo.it</a><br>
+                  </p>
+                  <p class="paragraph_style_7"><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="id4" style="height: 144px; left: 260px; position:
+              absolute; top: 354px; width: 367px; z-index: 1; "
+              class="style_SkipStroke_4 shape-with-text">
+              <div class="text-content
+                graphic_shape_layout_style_default_External_367_144"
+                style="padding: 0px; ">
+                <div class="graphic_shape_layout_style_default">
+                  <p style="padding-top: 0pt; "
+                    class="paragraph_style_8"><br>
+                  </p>
+                  <p class="paragraph_style_8">Professor of Economics<br>
+                  </p>
+                  <p class="paragraph_style_8"><br>
+                  </p>
+                  <p class="paragraph_style_9"><a
+                      title="http://www.unibo.it"
+                      href="http://www.unibo.it">Alma Mater Studiorum,
+                      University of Bologna</a><br>
+                  </p>
+                  <p class="paragraph_style_8"><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div style="height: 46px; width: 53px; height: 46px; left:
+              417px; position: absolute; top: 478px; width: 53px;
+              z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 53px; "> <img
+                  src="CV_files/shapeimage_8.png" alt="" style="height:
+                  43px; left: 0px; margin-left: 1px; position: absolute;
+                  top: 0px; width: 51px; "> </div>
+            </div>
+            <div style="height: 46px; width: 53px; height: 46px; left:
+              476px; position: absolute; top: 478px; width: 53px;
+              z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 53px; "> <img
+                  src="CV_files/shapeimage_8.png" alt="" style="height:
+                  43px; left: 0px; margin-left: 1px; position: absolute;
+                  top: 0px; width: 51px; "> </div>
+            </div>
+            <div style="height: 46px; width: 53px; height: 46px; left:
+              358px; position: absolute; top: 478px; width: 53px;
+              z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 53px; "> <img
+                  src="CV_files/shapeimage_8.png" alt="" style="height:
+                  43px; left: 0px; margin-left: 1px; position: absolute;
+                  top: 0px; width: 51px; "> </div>
+            </div>
+            <div class="tinyText" style="height: 13px; left: 55px;
+              position: absolute; top: 563px; width: 588px; z-index: 1;
+              "> <img usemap="#map1" id="shapeimage_9"
+                src="CV_files/shapeimage_9.png" style="border: none;
+                height: 19px; left: -3px; position: absolute; top: -3px;
+                width: 594px; z-index: 1; " alt="" title=""><map
+                name="map1" id="map1">
+                <area
+                  href="http://httpriccardoleonciniesyescvhtml.000webhostapp.com"
+title="http://httpriccardoleonciniesyescvhtml.000webhostapp.com"
+                  alt="http://httpriccardoleonciniesyescvhtml.000webhostapp.com"
+                  coords="3, 3, 591, 16">
+              </map>
+            </div>
+            <div style="height: 21px; width: 580px; height: 19px; left:
+              59px; position: absolute; top: 539px; width: 580px;
+              z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 580px; "> <img
+                  src="CV_files/shapeimage_10.png" alt="" style="height:
+                  21px; left: 0px; margin-top: -1px; position: absolute;
+                  top: 0px; width: 580px; "> </div>
+            </div>
+            <div style="height: 1px; line-height: 1px; "
+              class="tinyText">&nbsp;</div>
+            <div style="margin-left: 56px; margin-top: 549px; position:
+              relative; width: 588px; z-index: 1; "
+              class="style_SkipStroke_5 shape-with-text flowDefining">
+              <div class="text-content style_External_588_1628"
+                style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; "
+                    class="paragraph_style_10"><br>
+                  </p>
+                  <br>
+                  <div align="center"><font color="#666666"><span
+                        class="style_3"><i>Other Positions</i></span></font><br>
+                  </div>
+                  <ol>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11" align="center"><span
+                          style="font-size: 16px; " class="Punti elenco">•</span>
+                        <span style="font-size: 16px; " class="Punti
+                          elenco"></span>Permanent Observer in the
+                        Scientific Board of the <a class="class1"
+                          title="http://www.ircres.cnr.it"
+                          href="https://www.gramscitoscano.it/"
+                          moz-do-not-send="true"><span class="style_2">Istituto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            Gramsci Toscano</span></a><span
+                          class="style_2">, Florence</span>.<br>
+                      </p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11" align="center"><span
+                          style="font-size: 16px; " class="Punti elenco">•</span><span
+                          style="width: 4px; " class="inline-block"></span>Research
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        Associate, <a class="class1"
+                          title="http://www.ircres.cnr.it"
+                          href="http://www.ircres.cnr.it"><span
+                            class="style_2">Research Institute on
+                            Sustainable Economic Growth (IRCrES)</span></a><span
+                          class="style_2"></span><i>,</i> National
+                        Research Council, Milan.<br>
+                      </p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width"><span
+                        style="font-size: 16px; " class="Punti elenco"></span><br>
+                    </li>
+                  </ol>
+                  <div align="center"><font face="Cochin"><b><i><font
+                            color="#666666">Fields of Interest</font></i></b></font><br>
+                  </div>
+                  <p class="paragraph_style_13">Analysis of
+                    technological change and innovation – Local systems
+                    of production – Theory of the firm – Inequality.<br>
+                  </p>
+                  <p class="paragraph_style_13"><span class="style_3"><i><br>
+                      </i></span></p>
+                  <div align="center"><font face="Cochin"><b><i><font
+                            color="#666666">Studies</font></i></b></font><br>
+                  </div>
+                  <font face="Cochin"><b><i><font color="#666666"></font></i></b></font>
+                  <ol>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_12" align="center"><span
+                          style="font-size: 16px; " class="Punti elenco">•</span><span
+                          style="width: 4px; " class="inline-block"></span>PhD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        in Economics, Faculty of Economic and Social
+                        Studies, University of Manchester.<br>
+                      </p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_12"><span
+                          style="font-size: 16px; " class="Punti elenco">•</span><span
+                          style="width: 4px; " class="inline-block"></span>MA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        in Economics, Faculty of Economic and Social
+                        Studies, University of Manchester.<br>
+                      </p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_12"><span
+                          style="font-size: 16px; " class="Punti elenco">•</span><span
+                          style="width: 4px; " class="inline-block"></span>BA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        in Political Science (major Economics), Faculty
+                        of Political Science, University of Florence.</p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width"><br>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <div align="center"><span class="style_3"><i><font
+                              face="Cochin"><b><i><font color="#666666">Last
+
+
+
+
+
+                                    Invitations</font></i></b></font></i></span><span
+                          style="font-size: 16px; " class="Punti elenco"><i><span
+                              style="font-size: 16px; " class="Punti
+                              elenco"><i><span style="font-size: 16px; "
+                                  class="Punti elenco"><i><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"></span></i></span></i></span></i></span><br>
+                      </div>
+                    </li>
+                  </ol>
+                  <div align="center">
+                    <p style="text-indent: -7px; "
+                      class="paragraph_style_14"><span style="font-size:
+                        16px; " class="Punti elenco"><i><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><i><span style="font-size: 16px; "
+                                class="Punti elenco"><i><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"></span></i></span></i></span></i></span><span
+                        style="font-size: 16px; " class="Punti elenco"><i><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><i><span style="font-size: 16px; "
+                                class="Punti elenco"><i><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco">&nbsp; •</span></i></span></i></span><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><i> Seminar</i></span></i><span
+                          style="font-size: 16px; " class="Punti elenco">,
+                          Dpt of Economics, University of Kerala, India,
+                          17 December 2025</span></span></p>
+                  </div>
+                  <p style="text-indent: -7px; "
+                    class="paragraph_style_14"><span style="font-size:
+                      16px; " class="Punti elenco"><i><span
+                          style="font-size: 16px; " class="Punti elenco"><i><span
+                              style="font-size: 16px; " class="Punti
+                              elenco"><i><span style="font-size: 16px; "
+                                  class="Punti elenco"><i><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><i><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco">&nbsp; •</span></i></span></i></span><span
+                                  style="font-size: 16px; " class="Punti
+                                  elenco"><i> </i></span></i></span>Workshop</i></span>,
+                      </i>Regolazione dei mercati e innovazione
+                      nell'economia italiana e europea, SPISA, 22
+                      November 2025</span></p>
+                  <ol>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 7px; text-indent:
+                      -7px; " class="full-width">
+                      <p style="text-indent: -7px; "
+                        class="paragraph_style_14"><span
+                          style="font-size: 16px; " class="Punti elenco"><i><span
+                              style="font-size: 16px; " class="Punti
+                              elenco"><i><span style="font-size: 16px; "
+                                  class="Punti elenco"><i><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><i><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco">•</span></i></span></i></span><span
+                                  style="font-size: 16px; " class="Punti
+                                  elenco"><i><span style="font-size:
+                                      16px; " class="Punti elenco"><i> </i></span></i></span>Seminar,
+
+
+
+
+
+                              </i></span></i><span style="font-size:
+                            16px; " class="Punti elenco">Accademia delle
+                            Scienze dell'Istituto di Bologna,</span><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"> 18 November 2025</span> <i><br>
+                          </i></span></p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 7px; text-indent:
+                      -7px; " class="full-width">
+                      <p style="text-indent: -7px; "
+                        class="paragraph_style_14"><span
+                          style="font-size: 16px; " class="Punti elenco"><i><span
+                              style="font-size: 16px; " class="Punti
+                              elenco"><i><span style="font-size: 16px; "
+                                  class="Punti elenco"><i><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco">•</span></i></span></i></span><span
+                              style="font-size: 16px; " class="Punti
+                              elenco"><i><span style="font-size: 16px; "
+                                  class="Punti elenco"><i> </i></span></i></span>Seminar,
+
+
+
+
+
+                            Capire l'economia delle piattaforme, Rete
+                            degli Universitari,</i> 23 October 2025</span>
+                      </p>
+                      <p style="text-indent: -7px; "
+                        class="paragraph_style_14"><span
+                          style="font-size: 16px; " class="Punti elenco"><i><span
+                              style="font-size: 16px; " class="Punti
+                              elenco"><i><span style="font-size: 16px; "
+                                  class="Punti elenco">•</span></i></span></i></span><span
+                          style="font-size: 16px; " class="Punti elenco"><i><span
+                              style="font-size: 16px; " class="Punti
+                              elenco"><i> Summer School</i>, CUPL,
+                              Beijing, July&nbsp; 2025.</span></i></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"></span></span></span></p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 7px; text-indent:
+                      -7px; " class="full-width">
+                      <p style="text-indent: -7px; "
+                        class="paragraph_style_14"><span
+                          style="font-size: 16px; " class="Punti elenco"><i><span
+                              style="font-size: 16px; " class="Punti
+                              elenco"><i><span style="font-size: 16px; "
+                                  class="Punti elenco">• </span></i></span>Conference</i>,
+                          Sinergie pubblico-privato e sovranità
+                          tecnologica, University of Padua, 4 Dec. 2024<br>
+                        </span></p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 7px; text-indent:
+                      -7px; " class="full-width">
+                      <p style="text-indent: -7px; "
+                        class="paragraph_style_14"><span
+                          style="font-size: 16px; " class="Punti elenco"><i><i><span
+                                style="font-size: 16px; " class="Punti
+                                elenco">• </span></i>Seminar</i>,
+                          Catholic University, Milan, 9 Oct. 2024</span><br>
+                      </p>
+                    </li>
+                    <br>
+                  </ol>
+                  <div align="center"><i><span class="style_3"><i><span
+                            class="style_3"><i><font face="Cochin"><b><i><font
+                                      color="#666666">Last Conferences</font></i></b></font></i></span></i></span></i></div>
+                  <i> </i>
+                  <ol>
+                    <i> </i>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11"><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><i><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco">• </span></i></span></span></span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><i><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"><span
+                                              style="font-size: 16px; "
+                                              class="Punti elenco"><span
+                                                style="font-size: 16px;
+                                                " class="Punti elenco"><span
+                                                  style="font-size:
+                                                  16px; " class="Punti
+                                                  elenco"><span
+                                                    style="font-size:
+                                                    16px; " class="Punti
+                                                    elenco"><span
+                                                      style="font-size:
+                                                      16px; "
+                                                      class="Punti
+                                                      elenco"><span
+                                                        style="font-size:
+                                                        16px; "
+                                                        class="Punti
+                                                        elenco"><span
+                                                          style="font-size:
+                                                          16px; "
+                                                          class="Punti
+                                                          elenco">I</span></span></span></span><span
+                                                    style="font-size:
+                                                    16px; " class="Punti
+                                                    elenco">nternational
+                                                    Conference, </span></span></span></span></span></span></span></span></i><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"></span></span><span
+                                  style="font-size: 16px; " class="Punti
+                                  elenco"><span style="font-size: 16px;
+                                    " class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"><span
+                                              style="font-size: 16px; "
+                                              class="Punti elenco"><span
+                                                style="font-size: 16px;
+                                                " class="Punti elenco"><span
+                                                  style="font-size:
+                                                  16px; " class="Punti
+                                                  elenco"><span
+                                                    style="font-size:
+                                                    16px; " class="Punti
+                                                    elenco"></span></span></span></span></span></span></span></span></span><i><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"><span
+                                              style="font-size: 16px; "
+                                              class="Punti elenco"></span></span></span></span></span></i><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco">Micro
+                                            Evidence on Innovation and
+                                            Development, </span></span></span></span>University
+
+
+
+
+
+                                    of Kerala</span><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco">, Trivandrum,
+                                    </span></span></span><span
+                                  style="font-size: 16px; " class="Punti
+                                  elenco"><span style="font-size: 16px;
+                                    " class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco">10-11
+                                            December</span></span></span>
+                                      2025</span></span></span></span></span></span></span></p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11"><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"></span></span></span>•
+                              </span></span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"></span></span></span></span>II
+
+
+
+
+
+
+
+
+                                  Conferenza sull'economia civile, </span></span></span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"></span></span></span></span></span><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"><span
+                                              style="font-size: 16px; "
+                                              class="Punti elenco"><span
+                                                style="font-size: 16px;
+                                                " class="Punti elenco"><span
+                                                  style="font-size:
+                                                  16px; " class="Punti
+                                                  elenco"><span
+                                                    style="font-size:
+                                                    16px; " class="Punti
+                                                    elenco"><span
+                                                      style="font-size:
+                                                      16px; "
+                                                      class="Punti
+                                                      elenco">5 </span></span></span></span></span></span></span></span></span></span>June
+
+
+
+
+
+
+
+
+                                </span></span></span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"></span></span></span></span></span><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"><span
+                                              style="font-size: 16px; "
+                                              class="Punti elenco"><span
+                                                style="font-size: 16px;
+                                                " class="Punti elenco"><span
+                                                  style="font-size:
+                                                  16px; " class="Punti
+                                                  elenco"><span
+                                                    style="font-size:
+                                                    16px; " class="Punti
+                                                    elenco"><span
+                                                      style="font-size:
+                                                      16px; "
+                                                      class="Punti
+                                                      elenco"></span></span></span></span></span>2025</span></span></span></span></span></span></span></span></span></span></p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11"><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco">• XXII</span></span></span></span>
+                                  Annual Workshop CIMET</span></span></span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"></span>, </span></span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco">Lecce, 11-14 June 2025<span
+                                  style="font-size: 16px; " class="Punti
+                                  elenco"><span style="font-size: 16px;
+                                    " class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"></span></span></span></span></span></span></span></p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11"><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco">• </span></span></span></span>65ª
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  RSA SIE, Urbino, </span></span></span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco">24-26 </span></span></span></span></span>Oct
+
+
+
+
+
+
+
+
+                                  2024</span></span></span></span></span></p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11"><span
+                          style="font-size: 16px; " class="Punti elenco"></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco">•</span><span
+                                      style="width: 4px; "
+                                      class="inline-block"></span></span></span></span></span></span></span>SASE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        Conference, Limerick, 27-29 June 2024<span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"></span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"></span></span></span></span></span></span></p>
+                    </li>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 20px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width">
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11"><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><span
+                                      style="font-size: 16px; "
+                                      class="Punti elenco">•</span><span
+                                      style="width: 4px; "
+                                      class="inline-block"></span></span></span></span>Manifesto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              and research frontiers for a Renaissance
+                              in Economics, Perugia, </span></span></span><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco">20-21 </span></span></span>June
+
+
+
+
+
+
+
+
+                              2024</span></span></span></p>
+                      <p style="text-indent: -12px; "
+                        class="paragraph_style_11"><span
+                          style="font-size: 16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco">•</span><span style="width: 4px;
+                                " class="inline-block"></span>International
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              Joseph A. Schumpeter Society, Gothenburg,
+                            </span></span></span><span style="font-size:
+                          16px; " class="Punti elenco"><span
+                            style="font-size: 16px; " class="Punti
+                            elenco"><span style="font-size: 16px; "
+                              class="Punti elenco"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><span style="font-size: 16px; "
+                                  class="Punti elenco"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco">9-11 </span></span></span>June
+
+
+
+
+
+
+
+
+                              2024</span></span></span></p>
+                    </li>
+                  </ol>
+                  <br>
+                  <ol>
+                  </ol>
+                  <div align="center"><b><font face="Cochin"
+                        color="#666666"><i>Forthcoming &amp; Mimeo</i></font></b><font
+                      face="Cochin"><font color="#666666"><font
+                          color="#676767"><span style="font-size: 16px;
+                            " class="Punti elenco"><font color="#676767"><font
+                                color="#666666"><font color="#676767"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"><font
+                                      color="#676767"><font
+                                        color="#676767"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"></span></span></font></font></span></font></font></font></span></font></font></font><br>
+                    <font face="Cochin"><font color="#666666"><font
+                          color="#676767"><span style="font-size: 16px;
+                            " class="Punti elenco"><font color="#676767"><font
+                                color="#666666"><font color="#676767"><span
+                                    style="font-size: 16px; "
+                                    class="Punti elenco"></span></font></font></font></span></font></font></font></div>
+                  <font face="Cochin"><font color="#666666"><font
+                        color="#676767"><span style="font-size: 16px; "
+                          class="Punti elenco"><font color="#676767"><font
+                              color="#666666"><font color="#676767"><span
+                                  style="font-size: 16px; " class="Punti
+                                  elenco"><font color="#676767"><font
+                                      face="Cochin"><font
+                                        color="#666666"><font
+                                          color="#676767"><span
+                                            style="font-size: 16px; "
+                                            class="Punti elenco"><font
+                                              color="#676767"><font
+                                                color="#666666"><font
+                                                  color="#676767"><span
+                                                    style="font-size:
+                                                    16px; " class="Punti
+                                                    elenco"><font
+                                                      color="#676767"><font
+                                                        color="#676767"><span
+                                                          style="font-size:
+
+
+
+
+
+                                                          16px; "
+                                                          class="Punti
+                                                          elenco"><span
+                                                          style="font-size:
+
+
+
+
+
+                                                          16px; "
+                                                          class="Punti
+                                                          elenco">•</span>
+                                                        </span></font></font></span></font></font></font></span></font></font></font>Guidetti
+
+
+
+
+
+                                    G., Leoncini </font></span></font></font></font></span></font></font><font
+                      color="#666666"><font color="#676767"><span
+                          style="font-size: 16px; " class="Punti elenco"><font
+                            color="#676767"><font color="#666666"><font
+                                color="#676767"><span style="font-size:
+                                  16px; " class="Punti elenco"><font
+                                    color="#676767"><font
+                                      color="#666666"><font
+                                        color="#676767"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><font
+                                            color="#676767"><font
+                                              color="#666666"><font
+                                                color="#676767"><span
+                                                  style="font-size:
+                                                  16px; " class="Punti
+                                                  elenco"><font
+                                                    color="#676767">R.,
+                                                  </font></span></font></font></font></span></font></font>Pedrini
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  </font></span></font></font></font></span></font></font><font
+                      color="#666666"><font color="#676767"><span
+                          style="font-size: 16px; " class="Punti elenco"><font
+                            color="#676767"><font color="#666666"><font
+                                color="#676767"><span style="font-size:
+                                  16px; " class="Punti elenco"><font
+                                    color="#676767"><font
+                                      color="#666666"><font
+                                        color="#676767"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"><font
+                                            color="#676767"><font
+                                              color="#666666"><font
+                                                color="#676767"><span
+                                                  style="font-size:
+                                                  16px; " class="Punti
+                                                  elenco"><font
+                                                    color="#676767"><font
+                                                      color="#666666"><font
+                                                        color="#676767"><span
+                                                          style="font-size:
+
+
+
+
+
+
+
+                                                          16px; "
+                                                          class="Punti
+                                                          elenco"><font
+color="#676767"><font color="#666666"><font color="#676767"><span
+                                                          style="font-size:
+                                                          16px; "
+                                                          class="Punti
+                                                          elenco"></span></font></font></font></span></font></font>G.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  </font></span></font></font></font></span></font></font>(2024),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  </font></span></font></font><i>The
+                              resilience of Italian firms originating
+                              &nbsp;&nbsp; from </i><i>workers’ buyout.
+                              A counterfactual analysis</i>, mimeo<font
+                              color="#666666">.<br>
+                            </font></font></span></font></font></font><font
+                    face="Cochin" color="#666666"><font color="#676767"><span
+                        style="font-size: 16px; " class="Punti elenco"><font
+                          color="#676767"><font color="#666666"><span
+                              style="font-size: 16px; " class="Punti
+                              elenco">•</span><span style="width: 4px; "
+                              class="inline-block"></span></font><font
+                            color="#666666"><font color="#676767"><span
+                                style="font-size: 16px; " class="Punti
+                                elenco"><font color="#676767"><font
+                                    color="#666666"><font
+                                      color="#676767"><span
+                                        style="font-size: 16px; "
+                                        class="Punti elenco"></span></font></font></font></span></font></font>Antonioli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </font><font color="#676767"><font
+                            color="#676767">D.</font>, Chioatto </font><font
+                          color="#676767"><font color="#676767">E.</font>,
+                          Guidetti</font><font color="#676767"><font
+                            color="#676767"> G.</font>, Leoncini</font><font
+                          color="#676767"><font color="#676767"> R.</font>,
+                          Macaluso</font><font color="#676767"> M.
+                          (2024), </font></span><i>Green innovation and
+                        training in Italian manufacturing firms</i></font><font
+                      color="#676767">, mimeo<font color="#666666">.<br>
+                      </font></font></font><font face="Cochin"
+                    color="#676767"><font face="Cochin" color="#666666"><font
+                        color="#676767"><span style="font-size: 16px; "
+                          class="Punti elenco"><font color="#676767"><font
+                              color="#666666"><span style="font-size:
+                                16px; " class="Punti elenco">•</span><span
+                                style="width: 4px; "
+                                class="inline-block"></span></font><font
+                              color="#666666"><font color="#676767"><span
+                                  style="font-size: 16px; " class="Punti
+                                  elenco"><font color="#676767"><font
+                                      color="#666666"><font
+                                        color="#676767"><span
+                                          style="font-size: 16px; "
+                                          class="Punti elenco"></span></font></font></font></span></font></font></font></span></font></font>Guidetti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    G., Leoncini R., Macaluso M., (2023), <i>Artificial
+                      intelligence, robotization and inequality</i>,
+                    mimeo.<br>
+                  </font><font face="Cochin" color="#666666"><span
+                      style="font-size: 16px; " class="Punti elenco">•</span><span
+                      style="font-size: 16px; " class="Punti elenco"><span
+                        style="width: 4px; " class="inline-block"></span>A</span>rgentiero
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    A., Ferrara M., Leoncini R., Pedrini G., Scuderi R.
+                    (2023), <i>Does tax evasion affect innovation
+                      decisions?</i>, mimeo.</font><font color="#666666"><br>
+                  </font>
+                  <ol>
+                    <li style="background: rgb(255, 255, 255);
+                      line-height: 18px; padding-left: 12px;
+                      text-indent: -12px; " class="full-width"> <br>
+                    </li>
+                  </ol>
+                  <font color="#666666"> </font>
+                  <p><br>
+                  </p>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="paragraph paragraph_style_19">
+                    <div style="height: 95px; width: 98px; height: 88px;
+                      left: -1px; position: relative; top: 1px; width:
+                      95px; " class="tinyText inline-block">
+                      <div style="position: relative; width: 98px; "
+                        align="center"><br>
+                      </div>
+                    </div>
+                    <span class="tinyText"> </span>
+                    <div style="height: 95px; width: 98px; height: 88px;
+                      left: -1px; position: relative; top: 1px; width:
+                      95px; " class="tinyText inline-block">
+                      <div style="position: relative; width: 98px; "><br>
+                      </div>
+                    </div>
+                    <span class="tinyText"> </span>
+                    <div style="height: 95px; width: 98px; height: 88px;
+                      left: -1px; position: relative; top: 1px; width:
+                      95px; " class="tinyText inline-block">
+                      <div style="position: relative; width: 98px; "><br>
+                      </div>
+                    </div>
+                    <span class="tinyText"> </span>
+                    <div style="height: 95px; width: 98px; height: 88px;
+                      left: -1px; position: relative; top: 1px; width:
+                      95px; " class="tinyText inline-block">
+                      <div style="position: relative; width: 98px; "><br>
+                      </div>
+                    </div>
+                    <span class="tinyText"> </span>
+                    <div style="height: 95px; width: 98px; height: 88px;
+                      left: -1px; position: relative; top: 1px; width:
+                      95px; " class="tinyText inline-block">
+                      <div style="position: relative; width: 98px; "
+                        align="justify"><br>
+                      </div>
+                    </div>
+                    <span class="tinyText"> </span>
+                    <div style="height: 95px; width: 98px; height: 88px;
+                      left: -1px; position: relative; top: 1px; width:
+                      95px; " class="tinyText inline-block">
+                      <div style="position: relative; width: 98px; "><br>
+                      </div>
+                    </div>
+                    <br>
+                  </div>
+                  <p class="paragraph_style_19"><span class="style_4"><br>
+                    </span></p>
+                  <p class="paragraph_style_19"><span class="style_4"></span><br>
+                  </p>
+                  <p class="paragraph_style_19"><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+            <!--  *************************************************************************************** -->
+            <div style="height: 144px; left: 76px; position: absolute;
+              top: 1787px; width: 534px; z-index: 1;" class="tinyText
+              style_SkipStroke_6 stroke_0"> <img src="CV_files/rl4.jpg"
+                alt="" style="border: none; height: 144px; width: 534px;
+                "> </div>
+            <div id="id5" style="height: 132px; left: 146px; position:
+              absolute; top: 1792px; width: 428px; z-index: 1;"
+              class="style_SkipStroke_7 shape-with-text">
+              <div class="text-content
+                graphic_textbox_layout_style_default_External_428_132"
+                style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; "
+                    class="paragraph_style_22"><a
+                      onclick="window.open(this.href); return false;"
+title="http://riccardoleoncini.freecluster.eu/My_Recent_Publications.php"
+href="http://riccardoleoncini.freecluster.eu/My_Recent_Publications.php"
+                      onkeypress="window.open(this.href); return false;"
+                      class="class10">Link to My Recent Publications</a></p>
+                </div>
+              </div>
+            </div>
+            <!--  *************************************************************************************** -->
+            <div style="height: 144px; left: 75px; position: absolute;
+              top: 1597px; width: 534px; z-index: 1;" class="tinyText
+              style_SkipStroke_6 stroke_0"> <img src="CV_files/rl5.jpg"
+                alt="" style="border: none; height: 144px; width: 534px;
+                "> </div>
+            <div id="id5" style="height: 132px; left: 138px; position:
+              absolute; top: 1571px; width: 428px; z-index: 1;"
+              class="style_SkipStroke_7 shape-with-text">
+              <div class="text-content
+                graphic_textbox_layout_style_default_External_428_132"
+                style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <p style="padding-bottom: 0pt; padding-top: 0pt; "
+                    class="paragraph_style_22"><a
+                      onclick="window.open(this.href); return false;"
+title="http://riccardoleoncini.freecluster.eu/Non_Technical_Publications.html"
+href="http://riccardoleoncini.freecluster.eu/Non_Technical_Publications.html"
+                      onkeypress="window.open(this.href); return false;"
+                      class="class10">Link to Non Technical Publications</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  *************************************************************************************** -->
+          <div style="height: 0px; line-height: 0px; " class="spacer">&nbsp;</div>
+          <div style="height: 160px; margin-left: 0px; position:
+            relative; width: 700px; z-index: 15; " id="footer_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper">&nbsp;</div>
+            <div style="height: 199px; width: 700px; height: 199px;
+              left: 0px; position: absolute; top: -4px; width: 700px;
+              z-index: 1; " class="tinyText style_SkipStroke"> <img
+                src="CV_files/pinstripe_w_cover-b2.jpg" alt=""
+                style="border: none; height: 199px; width: 700px; "> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
